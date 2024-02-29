@@ -17,7 +17,7 @@ class StatefulGreeting extends React.Component {
             console.log("Previous props", prevProps);
             return {
                 introduction: prevState.introduction === "Hii noi!" ? "Babygirl!" : "Hii noi!",
-                buttonText: prevState.buttonText === "Fuck" ? "Kiss" : "Fuck"
+                buttonText: prevState.buttonText === "Hug" ? "Kiss" : "Hug"
             }
         });
     }
